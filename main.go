@@ -1,8 +1,8 @@
 package main
 
 import (
+	"api"
 	"fmt"
-	"github.com/go-http-test/api"
 	"net/http"
 )
 
