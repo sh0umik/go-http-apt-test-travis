@@ -1,8 +1,8 @@
 package api_test
 
 import (
-	"api"
 	"fmt"
+	"github.com/fahim/go-http-test/api"
 	"io"
 	"net/http"
 	"net/http/httptest"

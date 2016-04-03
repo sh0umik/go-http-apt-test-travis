@@ -1,6 +1,10 @@
+go_import_path: github.com/fahim/go-http-test
 language: go
 go:
   - 1.5
+before_install:
+  - go get ./..
+
 script:
   - go build
   - ls -la
