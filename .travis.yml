@@ -3,7 +3,7 @@ language: go
 go:
   - 1.5
 before_install:
-  - go get ./..
+  - go get github.com/fahim/go-http-test/api
 
 script:
   - go build
