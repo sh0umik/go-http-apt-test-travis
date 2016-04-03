@@ -1,7 +1,7 @@
+go_import_path: github.com/go-http-test
 language: go
 go:
   - 1.5
-
 before_install:
   - go get ./..
 
