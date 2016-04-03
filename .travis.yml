@@ -1,0 +1,11 @@
+language: go
+go:
+  - 1.5
+
+before_install:
+  - go get ./..
+
+script:
+  - go build
+  - ./go-http-test &
+  - go test -v api/api_test.go
