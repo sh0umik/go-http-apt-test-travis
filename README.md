@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/sh0umik/go-http-apt-test-travis.svg?branch=master)](https://travis-ci.org/sh0umik/go-http-apt-test-travis)
